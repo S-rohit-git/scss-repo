@@ -1,0 +1,10 @@
+@import "./color.scss";
+
+h1{
+    color: $red;
+}
+div{
+    ul{
+        background-color: $chat;
+    }
+}
