@@ -1,10 +1,35 @@
 @import "./color.scss";
+@import "./mixin.scss";
 
 h1{
     color: $red;
 }
+
+h2{
+    background-color: aqua;
+    &:hover{
+        color: chartreuse;
+        cursor: pointer;
+    }
+}
+
 div{
     ul{
         background-color: $chat;
+        li{
+            color: red;
+        }
     }
+}
+.content{
+        width: 700px;
+        height: 450px;
+        @include abc;
+        @include flex;
+        .box{
+            width: 85px;
+            height: 85px;
+            @include abc;
+            background-color: $chat;
+        }
 }

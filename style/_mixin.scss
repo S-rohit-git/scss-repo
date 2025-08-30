@@ -1,0 +1,9 @@
+@mixin flex{
+    display: flex;
+    // flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@mixin abc {
+    border: 2px solid red;
+}
